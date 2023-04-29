@@ -1,0 +1,155 @@
+#inputfood {
+  border-radius: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+.add-btn-div {
+  padding-left: 500px;
+}
+
+.search-results {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+
+.search-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.search-heading-div {
+  text-align: center;
+  padding: 40px;
+}
+
+.confirm-btn {
+  border-radius: 10px;
+  position: relative;
+  background-color: #CC5801;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.confirm-btn:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.confirm-btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.search-results, .fetch-data-body {
+  padding: 20px;
+}
+
+li {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.fetch-data-body {
+  width: 400px;
+}
+
+ul {
+  border-style: solid;
+}#inputfood {
+  border-radius: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+.add-btn-div {
+  padding-left: 500px;
+}
+
+.search-results {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+
+.search-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.search-heading-div {
+  text-align: center;
+  padding: 40px;
+}
+
+.confirm-btn {
+  border-radius: 10px;
+  position: relative;
+  background-color: #CC5801;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.confirm-btn:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.confirm-btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.search-results, .fetch-data-body {
+  padding: 20px;
+}
+
+li {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.fetch-data-body {
+  width: 400px;
+}
+
+ul {
+  border-style: solid;
+}

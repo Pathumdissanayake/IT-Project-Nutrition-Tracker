@@ -1,0 +1,99 @@
+.form-title {
+  text-align: center;
+
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-diary-form {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+label {
+  font-size: 19px;
+}
+
+#btn-post {
+  margin-left: 200px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #cc5801;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+  width: 90px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#btn-post:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+#btn-post:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+#btn-cancel {
+  margin-left: 350px;
+  background-color: #a52005;
+border-radius: 12px;
+color: white;
+cursor: pointer;
+padding: 10px ;
+text-align: center;
+transition: 200ms;
+width: 90px;
+box-sizing: border-box;
+border: 0;
+font-size: 18px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+#btn-cancel:not(:disabled):hover,
+#btn-cancel:not(:disabled):focus {
+outline: 0;
+background:#721300 ;
+box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+#btn-cancel:disabled {
+filter: saturate(0.2) opacity(0.5);
+-webkit-filter: saturate(0.2) opacity(0.5);
+cursor: not-allowed;
+}
+
+.buttons {
+  padding-top: 40px;
+}
